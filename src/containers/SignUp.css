@@ -1,0 +1,18 @@
+.Signup{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.Signup-container {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  color: white;
+  width: 500px;
+  padding: 3%;
+}
