@@ -3,37 +3,23 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import './SignUp.css';
 
-function SignUp(){
+function LogIn(){
 	return (
     <div className="Signup">
     <div className="Signup-container">
     <h1 className="font">Prep-Nation</h1>
-    <h2 className="App-link"> Sign Up </h2>
+    <h2 className="App-link"> LogIn </h2>
     <Form>
-    <Form.Group controlId="formBasicName">
-    <Form.Label>Name</Form.Label>
-    <Form.Control type="text" placeholder="Enter Your Name" />
-    </Form.Group>
     <Form.Group controlId="formBasicEmail">
     <Form.Label>Email address</Form.Label>
     <Form.Control type="email" placeholder="Enter email" />
-    <Form.Text className="text-muted">
-      We'll never share your email with anyone else.
-    </Form.Text>
-    </Form.Group>
-    <Form.Group>
-    <Form.Label>Mobile Number</Form.Label>
-    <Form.Control type="text" placeholder="Enter Your Mobile Number" />
-    <Form.Text className="text-muted">
-      It should be 10 digits.
-    </Form.Text>
     </Form.Group>
     <Form.Group controlId="formBasicPassword">
     <Form.Label>Password</Form.Label>
     <Form.Control type="password" placeholder="Enter Your Password" />
     </Form.Group>
     <h5>
-      Already Regitered? Click to <a href="/logIn" className="App-link">Login</a>.
+      Create New Account? Click to <a href="/signUp" className="App-link">SignUp</a>.
     </h5>
     <br/>
     <div className="tc">
@@ -47,4 +33,4 @@ function SignUp(){
   );
 }
 
-export default SignUp;
+export default LogIn;
