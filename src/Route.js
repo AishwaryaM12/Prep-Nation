@@ -1,18 +1,22 @@
 import React from 'react';
-import App from './containers/App';
+
 import SignUp from './containers/SignUp';
 import LogIn from './containers/LogIn';
 import { Switch, Route } from 'react-router-dom';
+import Layout from './containers/Layout';
+import prepfinal from './containers/prepfinal';
 
 function Routes() {
   return (
-    <main>
-      <Switch>
-        <Route exact path='/' component={App}/>
-        <Route path='/signUp' component={SignUp}/>
-        <Route path='/logIn' component={LogIn}/>
-      </Switch>
-    </main>
+    <div >
+      <Layout>
+        <Switch>
+          <Route path="/Signup" component={SignUp} />
+          <Route path="/LogIn" component={LogIn} />
+          <Route path="/" exact component={prepfinal} />
+        </Switch>
+      </Layout>
+    </div>
   );
 }
 export default Routes;
