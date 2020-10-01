@@ -7,7 +7,7 @@ function LogIn() {
   return (
     <div className="Signup">
       <div className="Signup-container">
-        <h1 className="font">Prep-Nation</h1>
+        <h1 className="font"><a href="/">Prep-Nation</a></h1>
         <h2 className="App-link"> LogIn </h2>
         <Form>
           <Form.Group controlId="formBasicEmail">

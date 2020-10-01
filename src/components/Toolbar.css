@@ -1,0 +1,21 @@
+.color-nav{
+    background-color: rgb(34, 26, 26);
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 99;
+}
+
+.font{
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+ }
+ .font:hover{
+ 	color:pink !important;
+ }
+  
+.fontcolor{
+    color: #61dafb !important;
+}
+.fontcolor:hover{
+	color: #3f9bff !important;
+}
